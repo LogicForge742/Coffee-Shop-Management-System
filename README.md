@@ -12,25 +12,35 @@ A simple Python project to model a coffee shop's customers, coffees, and orders 
 
 ## Project Structure
 
----
+Coffee-Shop-Management-System/
+│── lib/ # Core classes (Customer, Coffee, Order, etc.)
+│── tests/ # Test files for different modules
+│── README.md # Project documentation
+│── requirements.txt # Dependencies (if needed)
+
 
 ## Getting Started
 
 ### 1. Clone the repository
 
 ```sh
-##git clone git@github.com:LogicForge742/##Coffee-Shop-Management-System.git>
-##cd Coffee-Shop-Management-System
+git clone: git@github.com:LogicForge742/Coffee-Shop-Management-System.git
+cd Coffee-Shop-Management-System.
 
-##2.Create a virtual environment.
-##python3 -m venv env
-##source env/bin/activate
+2. Create and activate a virtual environment.
+python3 -m venv env
+source env/bin/activate
 
-##Testing
-##Tests are located in the tests/ and Tests/ directories.
-##To run all tests:
-# pytest
+3. Install dependencies.
+pip install -r requirements.txt
+4.
+4. Run tests
 
+Tests are located in the tests/ directory.
+To run all tests:
+pytest
 
-## License
-## MIT License
+License
+
+This project is licensed under the MIT License.
+
