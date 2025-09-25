@@ -1,0 +1,3 @@
+[python]
+testingFramework = "unittest"
+mockingFramework = "unittest.mock"
